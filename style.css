@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+}
+.navbar {
+  width: 1280px;
+  height: 88px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+}
+.logo-watch-shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.logo-watch-shop img {
+  width: 184px;
+  height: 33px;
+  margin-left: 0%;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  list-style-type: none;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #7a7a7a;
+  font-family: "Poppins";
+}
+.nav a:hover {
+  color: #000000;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 20px;
+}
+.contact-us {
+  background-color: #000000;
+  font-size: 16px;
+  font-family: "Poppins";
+  padding: 15px;
+  border-radius: 50px;
+  color: azure;
+}
+.contact-us a {
+  margin: 10px;
+  text-decoration: none;
+  color: azure;
+}
+.contact-us:hover {
+  background-color: #0088ff;
+}
+.nav-end {
+  i {
+    color: black;
+  }
+}
+.page1-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.page1-container1 {
+  margin-top: 50px;
+}
+.box1-container1 {
+  width: 642px;
+  height: 556px;
+}
+.box1-container1 img {
+  width: 630px;
+  height: 556px;
+}
+.container1-items {
+  width: 600px;
+  height: 520px;
+
+  margin: 10px;
+  margin-top: 120px;
+}
+.be-online {
+  font-size: 25px;
+  color: #7a7a7a;
+  font-family: "Poppins";
+}
+.for-all {
+  font-size: 60px;
+  font-weight: 300px;
+  font-family: "Poppins";
+}
+.circumstances {
+  font-size: 25px;
+  font-weight: 900px;
+  font-family: "Poppins";
+}
+
+.container1-item2 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  font-size: 16px;
+  font-family: "Poppins";
+
+  margin-top: 60px;
+}
+
+.container1-item2 a {
+  text-decoration: none;
+}
+
+.purchase-now {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 184px;
+  height: 54px;
+  background-color: #0088ff;
+  padding: 10px;
+  border-radius: 40px;
+}
+.purchase-now a {
+  color: azure;
+}
+.purchase-now:hover {
+  background-color: #000000;
+}
+.watch-video:hover {
+  background-color: #0088ff;
+  a {
+    color: azure;
+  }
+}
+
+.watch-video a {
+  color: #000000;
+}
+.watch-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 184px;
+  height: 54px;
+
+  padding: 10px;
+  border-radius: 40px;
+  border: 1px solid black;
+}
+.watch-video i:hover {
+  color: white;
+}
+.page1-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.smart-watch img {
+  width: 580px;
+  height: 550px;
+  align-items: center;
+}
+.box1-item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 10px;
+  /* background-color: antiquewhite; */
+  font-family: "Poppins";
+  padding: 20px;
+  p {
+    color: #7a7a7a;
+  }
+}
+.box1-item1 img {
+  width: 50px;
+  height: 41px;
+}
+
+.time-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+.battery-icon {
+  img {
+    width: 51px;
+    height: 29px;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 10px;
+  margin-left: 50px;
+}
+.link-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  gap: 10px;
+  margin-left: 50px;
+}
+.calender-icon {
+  img {
+    width: 43px;
+    height: 43px;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  /* margin-right: 50px; */
+}
+.price-icon {
+  img {
+    width: 43px;
+    height: 43px;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  /* margin-right: 50px; */
+}
+.watch-icon {
+  img {
+    width: 45px;
+    height: 51px;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  /* margin-right: 50px; */
+}
+.page1-container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page1-container3 {
+  width: 1200px;
+  height: 650px;
+  background-color: #7a7a7a;
+  border-radius: 50px;
+  background-image: url(./photo/photo_2025-09-21_16-02-47.jpg);
+}
+.container3- {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  font-family: "Poppins";
+  color: white;
+  p {
+    width: 70%;
+  }
+  h1 {
+    color: white;
+    margin-top: 70px;
+    font-size: 40px;
+  }
+}
+.icons-container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 70px;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+  p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    font-family: "Poppins";
+  }
+}
+.icon1 {
+  width: 100px;
+  height: 100px;
+  gap: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.icon1:hover {
+  background-color: #000000;
+  img {
+    color: white;
+  }
+}
