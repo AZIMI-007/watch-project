@@ -272,6 +272,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 .page1-container3 {
@@ -333,9 +335,92 @@
   align-items: center;
   border-radius: 100%;
 }
-.icon1:hover {
-  background-color: #000000;
-  img {
-    color: white;
+.pear-watch{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20px;
+  
+}
+.p-pear{
+  font-size: 16px;
+  font-family: "Poppins";
+  width: 70%;
+  text-align: center;
+  color: #7a7a7a;
+}
+.titel-pear{
+  font-size: 24px;
+  font-family: "Poppins";
+}
+.watch-products{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.watch-items{
+  width: 280px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 50px;
+  background-color:white;
+  box-shadow: 0px 36px 60px 0px rgba(0, 0, 0, 0.1); 
+  
+}
+.kind-watch img{
+  width: 220px;
+  height: 220px;
+}
+.kind-watch {
+  width: 220px;
+  height: 220px;
+  background-color: #abb8c3; 
+  border-radius: 100%;
+}
+.addto-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 40px;
+  background-color: #0088ff;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  font-family: "Poppins";
+}
+.buy-icon{
+  /* width: 20px;
+  height: 20px; */
+}
+.watch-items p{
+  font-family: "Poppins";
+  font-size: 18px;
+}
+.star{
+  font-size: 20px;
+}
+.watchs-name{
+  p{
+    font-size: 12px;
+    text-align: center;
+    font-family: "Poppins";
+  }
+  h4{
+    font-size: 18px;
+    text-align: center;
+    font-family: "Poppins";
   }
 }
+.watchs-name:hover{
+  color: #0088ff;
+}
+.addto-card:hover{ color:black;}
