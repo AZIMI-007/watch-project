@@ -360,6 +360,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  gap: 20px;
 }
 .watch-items{
   width: 280px;
@@ -381,7 +383,7 @@
 .kind-watch {
   width: 220px;
   height: 220px;
-  background-color: #abb8c3; 
+  background-color: rgba(0, 0, 0, 0.1);; 
   border-radius: 100%;
 }
 .addto-card{
