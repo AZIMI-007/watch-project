@@ -397,6 +397,7 @@
   color: white;
   padding: 10px;
   border-radius: 50px;
+  gap: 10px;
   font-family: "Poppins";
 }
 .buy-icon{
@@ -425,4 +426,14 @@
 .watchs-name:hover{
   color: #0088ff;
 }
-.addto-card:hover{ color:black;}
+.addto-card:hover{ background-color:black;}
+.Discover-More{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  
+   /* p{font-family: "Poppins";} */
+}
+.Discover h3{font-family: "Poppins";}
