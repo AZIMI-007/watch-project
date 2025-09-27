@@ -335,27 +335,26 @@
   align-items: center;
   border-radius: 100%;
 }
-.pear-watch{
+.pear-watch {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
   gap: 20px;
-  
 }
-.p-pear{
+.p-pear {
   font-size: 16px;
   font-family: "Poppins";
   width: 70%;
   text-align: center;
   color: #7a7a7a;
 }
-.titel-pear{
+.titel-pear {
   font-size: 24px;
   font-family: "Poppins";
 }
-.watch-products{
+.watch-products {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -363,7 +362,7 @@
   margin-top: 50px;
   gap: 20px;
 }
-.watch-items{
+.watch-items {
   width: 280px;
   height: 490px;
   display: flex;
@@ -372,21 +371,20 @@
   align-items: center;
   gap: 20px;
   border-radius: 50px;
-  background-color:white;
-  box-shadow: 0px 36px 60px 0px rgba(0, 0, 0, 0.1); 
-  
+  background-color: white;
+  box-shadow: 0px 36px 60px 0px rgba(0, 0, 0, 0.1);
 }
-.kind-watch img{
+.kind-watch img {
   width: 220px;
   height: 220px;
 }
 .kind-watch {
   width: 220px;
   height: 220px;
-  background-color: rgba(0, 0, 0, 0.1);; 
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 100%;
 }
-.addto-card{
+.addto-card {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -400,40 +398,98 @@
   gap: 10px;
   font-family: "Poppins";
 }
-.buy-icon{
+.buy-icon {
   /* width: 20px;
   height: 20px; */
 }
-.watch-items p{
+.watch-items p {
   font-family: "Poppins";
   font-size: 18px;
 }
-.star{
+.star {
   font-size: 20px;
 }
-.watchs-name{
-  p{
+.watchs-name {
+  p {
     font-size: 12px;
     text-align: center;
     font-family: "Poppins";
   }
-  h4{
+  h4 {
     font-size: 18px;
     text-align: center;
     font-family: "Poppins";
   }
 }
-.watchs-name:hover{
+.watchs-name:hover {
   color: #0088ff;
 }
-.addto-card:hover{ background-color:black;}
-.Discover-More{
+.addto-card:hover {
+  background-color: black;
+}
+.Discover-More {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  
-   /* p{font-family: "Poppins";} */
+
+  /* p{font-family: "Poppins";} */
 }
-.Discover h3{font-family: "Poppins";}
+.Discover h3 {
+  font-family: "Poppins";
+}
+.home-container5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin-top: 120px;
+
+  font-family: "Poppins";
+}
+.jon-idea {
+  width: 560px;
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  p {
+    color: #7a7a7a;
+  }
+}
+.idea p {
+  font-size: 20px;
+}
+
+.jon-photo {
+  width: 420px;
+  height: 464px;
+
+  img {
+    width: 420px;
+    height: 464px;
+    border-radius: 10px;
+  }
+}
+.jon-profil {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.profil {
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+}
+.jon-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
