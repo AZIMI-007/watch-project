@@ -562,3 +562,88 @@ gap:20px;
   background-color: white;
 p{color: #000000;}
 }
+footer{
+  width: 1250px;
+  height:320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #F1F2F6;
+  border-top-left-radius: 100px;
+  font-family: "Poppins";
+  p{color: #7a7a7a;}
+  margin-top: 100px;
+  padding: 30px;
+  
+}
+.xtra-watchs{
+  width: 607px;
+  height:200px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+.xtra img{
+  width: 110;
+  height: 30px;
+}
+.soshal-media{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.media{
+  width: 47px;
+  height: 47px;
+  border: solid #AAAAAA;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-box-home{
+  width: 600px;
+  height: 200px;
+  
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+
+}
+.minu{
+  width: 168px;
+  height: 260px;
+  
+  display: flex;
+  flex-direction: column;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  a{
+    
+    text-decoration:none;
+    color: #7a7a7a;
+  }
+  a:hover{color: #0088ff;}
+}
+input{
+  width: 170px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 50px;
+}
+.Subscribe{
+  width: 150px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
