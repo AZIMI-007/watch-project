@@ -398,10 +398,7 @@
   gap: 10px;
   font-family: "Poppins";
 }
-.buy-icon {
-  /* width: 20px;
-  height: 20px; */
-}
+
 .watch-items p {
   font-family: "Poppins";
   font-size: 18px;
@@ -492,4 +489,76 @@
   justify-content: center;
   align-items: center;
   gap: 7px;
+}
+.home-container6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  font-family: "Poppins";
+  color: white;
+}
+.Watch-Stores{
+  width: 1200px;
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  background-image: url(./photo/photo_2025-09-27_16-16-49.jpg);
+  border-radius: 50px;
+  margin-bottom: 30px;
+  p{
+    width: 70%;
+    text-align: center;
+    color: #AAAAAA;
+
+  }
+ 
+}
+.Watch-Stores h1{
+  font-size: 40px;
+}
+.last-item{display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+gap:20px;
+
+}
+.find-nearby{
+  display: flex;
+  flex-direction: row;
+  width: 240px;
+  height: 52px;
+  padding: 10px;
+ 
+  
+  justify-content: center;
+  align-items: center;
+  p{color: white;}
+  border: solid white;
+  border-radius: 50px;
+}
+.Purchase-Now{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 173px;
+  height: 52px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50px;
+  color: #000000;
+}
+.Purchase-Now:hover{
+  background-color: #0088ff;
+  color: white;
+}
+.find-nearby:hover{
+  background-color: white;
+p{color: #000000;}
 }
