@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  /* overflow-x:  hidden; */
+}
 .main-header {
   display: flex;
   flex-direction: row;
@@ -194,6 +197,8 @@
   font-family: "Poppins";
   padding: 20px;
   p {
+    width: 287px;
+    height: 47px;
     color: #7a7a7a;
   }
 }
@@ -646,4 +651,65 @@ input{
   background-color: #000000;
   color: white;
   text-align: center;
+}
+/* start style of coliction page */
+
+.coliction-watch{
+  width: 1270px;
+  height: 350px;
+  background-color: #000000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Poppins";
+  margin: auto;
+  /* visibility: hidden; */
+}
+.watchs-page2{
+  width: 240px;
+  height: 240px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  /* gap: 20px; */
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
+.Modern-Watch{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  padding: 30px;
+  gap: 20px;
+}
+.Chek-Now{
+  width: 130px;
+  height:30px ;
+  background-color: #0088ff;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Chek-Now:hover{
+  background-color: #000000;
+
 }
