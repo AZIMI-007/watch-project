@@ -967,13 +967,7 @@ padding: 10px;
 }
 /* styles of blog page */ 
 
-.first-blog{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: auto;
-}
+
 .home-blog{
    display: flex;
   flex-direction: row;
@@ -983,10 +977,10 @@ padding: 10px;
   width: 122px;
   height: 43px;
   border-radius: 50px;
-  
+  background-color:rgba(0, 0, 0, 0.02);
   font-family: "Poppins";
   border: 0.1px solid #bfbaba;
-  background-color:rgba(238, 238, 238, 0.845) 0%,;
+  
   font-size: 13px;
 }
 .main-parent{
@@ -999,9 +993,12 @@ padding: 10px;
   font-family: "Poppins";
 }
 .left-items{
+  display: flex;
+  flex-direction: column;
+  /* position: fixed; */
   width:370px ;
   height:1030px;
-/* background-color: #a3a3a3; */
+  gap: 100px;
 margin-top: -2400px;
 }
 .right-items{
@@ -1022,9 +1019,9 @@ margin-top: -2400px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 0.001px solid #bfbaba;
+  border: 0.001px solid #F1F2F6;
   border-radius: 40px;
-  background-color:rgba(0, 0, 0, 0.01);;
+  background-color:rgba(0, 0, 0, 0.02);
 }
 .item1-blog img{
   width: 703px;
@@ -1062,4 +1059,81 @@ margin-top: -2400px;
   gap: 5px;
   border-radius: 20px;
   margin-top: 30px;
+}
+.search{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 368px;
+  height: 133px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.02);
+  gap: 10px;
+  border: 0.1px solid #F1F2F6;
+}
+.search input{
+  padding: 15px;
+  border-radius:15px;
+  
+}
+.search-text{
+  width: 100px;
+  padding: 10px;
+  background-color: #0088FF;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  
+}
+.search-text:hover{
+  background-color: #000000;
+}
+.tags-cloud{
+  width: 368px;
+  height: 383px;
+  background-color:rgba(0, 0, 0, 0.02);
+  border-radius: 30px;
+}
+.cloud{
+  margin: 20px;
+}
+.taga-items{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  border: 1px solid #F1F2F6;
+  p{
+    background-color: white;
+    font-size: 13px;
+    padding:7px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+}
+.p-tags{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  gap: 10px;
+}
+.pictur-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  img{
+    width:287px ;
+  height:233px ;
+};
+}
+.end-blog{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
