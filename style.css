@@ -1354,3 +1354,112 @@ margin-top: -2400px;
   p{font-size: 20px;color: #7a7a7a;width: 80%;text-align: center;}
   h2{width: 30%;text-align: center;}
 }
+/* start the style of faq page */
+
+.faq-container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  gap: 30px;
+  margin-top: 100px;
+  h1{font-size: 44px;}
+  p{width: 50%;text-align: center;color: #7a7a7a;}
+}
+.faq-container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-family: "Poppins";
+}
+.faq-form{
+  width: 380px;
+  height: 1050px;
+  background-color:rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+
+}
+.item1-faq-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 30px;
+}
+.icon-form{
+  width:70px;
+  height:70px;
+  font-size: 40px;
+  background-color: #000000;
+  color: white;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  p{color: #7a7a7a;}
+}
+.form-itself{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  gap: 20px;
+}
+.your-q{margin: 30px;}
+.your-q input{width:320px ;height:150px;border-radius: 20px; border-color: #5f0e0e;}
+.form-itself input{
+  width: 320px;
+  height: 52px;
+  border-color: #884e4e;
+}
+.ask{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: 30px;
+  h3{padding: 10px;background-color: #0088FF;color: white;border-radius: 10px;}
+}
+.ask h3:hover{background-color: #000000;}
+.faq-quastion{
+  width: 800px;
+  height: 944px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -300px;
+  
+  
+}
+.quastions-{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.quastion-1{
+  width:760px ;
+  height:64px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.02);
+  /* gap: 5px; */
+  
+}
