@@ -1278,7 +1278,7 @@ margin-top: -2400px;
   h2{background-color: #000000;color: white;font-size: 20px;padding: 5px;border-radius: 10px;}
 }
 .about-page-container3{
-  width: 1264px;
+  width: 100%px;
   height:600px;
   background-color: #000000;
   display: flex;
@@ -1296,8 +1296,8 @@ margin-top: -2400px;
   margin-top: 30px;
 }
 .tittel-container3-about{
-  width: 490px;
-  height: 100px;
+  width:40%;
+  height:15%;
   background-color: #0088FF;
   border-radius: 10px;
   display: flex;
@@ -1461,4 +1461,81 @@ margin-top: -2400px;
   p{padding: 30px;}
   /* gap: 5px; */
   
+}
+/* start doing responsive of about page */
+
+@media  (max-width:576px) {
+    .about-page-container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        img{max-width:382px; max-height: 382px;}
+    }
+    .on-img{z-index:0;
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    .about-page-box1{
+        padding: px;
+        width:500px;
+        h1{font-size: 20px;}
+        p{max-width: 70%;text-align: center;}
+    }
+    .about-page-items{display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:flex-start;
+        gap: 20px;
+    
+    }
+    .horzantal{hr{max-width: 500px;}}
+    
+
+}
+
+@media  (max-width:576px) {
+  .about-page-container2{
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    img{max-width: 382px;max-height: 382px;}
+  }
+  .container2-box1{display: flex;
+  justify-content: center;}
+  .container2-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    width:500px;height: 500px;
+    h1{font-size: 1.5rem;}
+    p{max-width: 80%;text-align: center;}
+  }
+  .watch-qalti-about-page{
+    width:500px;
+      display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    
+    h3{font-size: 1rem;}}
+  .qualty{width: 80%;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 200px;
+text-align: center;
+h2{font-size: 0.8rem;}
+}
+
+}
+@media (max-widht:576px) {
+  .about-page-container3{ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tittel-container3-about h1{font-size:10px;}
 }
