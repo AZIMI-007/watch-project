@@ -994,7 +994,6 @@ padding: 10px;
 .left-items{
   display: flex;
   flex-direction: column;
-  /* position: fixed; */
   width:370px ;
   height:1030px;
   gap: 100px;
@@ -1570,4 +1569,80 @@ h2{font-size: 0.8rem;}
     h2{font-size: 16px;}
   }
 }
+
+@media (max-width:576px) {
+  footer{ width:100%px;
+    height: 1000px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  gap: 40px;
+  }
+  .xtra-watchs{width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -400px;
+  }
+  .last-box-home{width: 99%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  }
+  input{width: 400px;
+  text-align: center;
+
+
+}.minu{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+}
+
+/* responsiv of faq page */
+
+@media (max-width:576px) {
+  .faq-container1{
+    width: 100%;
+    p{font-size: 14px;
+    width: 90%;
+    }
+    
+    h1{font-size: 20px;}
+  }
+  .faq-container2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+  }
+  .faq-quastion{
+    margin-top: 40px;
+    width: 90%;
+    p{font-size: 12px;}
+  }
+  .quastion-1{width: 100%;}
+  .item1-faq-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+
+
+}
+/* responsive cods of home page */
 
