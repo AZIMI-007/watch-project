@@ -1,0 +1,356 @@
+/* responsive cods of home page */
+
+@media (max-width: 576px) {
+  .page1-container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .box1-container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p {
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 25px;
+    }
+  }
+  .container1-item2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .purchase-now {
+    font-size: 13px;
+    width: 30%;
+    height: 20%;
+  }
+  .watch-video {
+    font-size: 13px;
+    width: 30%;
+    height: 20%;
+  }
+  .box1-container1 img {
+    width: 300px;
+    height: 300px;
+    margin-top: -600px;
+  }
+  .page1-container2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -300px;
+  }
+  .box1-container2 {
+    p {
+      font-size: 12px;
+      width: 100%;
+    }
+  }
+  .smart-watch img {
+    width: 400px;
+    height: 400px;
+  }
+  .box3-container2 {
+    p {
+      font-size: 14px;
+      width: 100%;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .page1-container-3 {
+    width: 100%;
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 13px;
+      width: 80%;
+    }
+  }
+
+  .page1-container3 {
+    width: 90%;
+  }
+  .icons-container3 {
+    width: 90%;
+    font-size: 10px;
+    gap: 10px;
+  }
+  .icon1 img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .home-container5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .jon-idea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .idea {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Watch-Stores {
+    width: 95%;
+  }
+  .xtra-watchs {
+    p {
+      width: 50%;
+    }
+  }
+  .last-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Purchase-Now {
+    font-size: 13px;
+    width: 60%;
+    height: 30%;
+  }
+  .find-nearby {
+    font-size: 13px;
+  }
+
+  .about-page-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 382px;
+      max-height: 382px;
+    }
+  }
+  .on-img {
+    z-index: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .about-page-box1 {
+    width: 500px;
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      max-width: 70%;
+      text-align: center;
+    }
+  }
+  .about-page-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    margin-right: 200px;
+  }
+  .horzantal {
+    hr {
+      max-width: 500px;
+    }
+  }
+
+  .about-page-container2 {
+    /* max-width: 550px; */
+    display: flex;
+    flex-direction: column;
+    img {
+      max-width: 382px;
+      max-height: 382px;
+    }
+  }
+  .container2-box1 {
+    display: flex;
+    justify-content: center;
+  }
+  .container2-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    height: 450px;
+    h1 {
+      font-size: 1rem;
+    }
+    p {
+      max-width: 80%;
+      text-align: center;
+      font-size: 1rem;
+    }
+  }
+  .watch-qalti-about-page {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+    h3 {
+      font-size: 0.7rem;
+    }
+  }
+  .qualty {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    text-align: center;
+    h2 {
+      font-size: 0.8rem;
+    }
+  }
+  .tittel-container3-about {
+    font-size: 8px;
+    width: 40%;
+    height: 10%;
+  }
+  .about-page-container3 {
+    width: 100%;
+    p {
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  .item-container3 {
+    width: 203px;
+  }
+  .number-about {
+    width: 40px;
+    height: 40px;
+    h1 {
+      font-size: 30px;
+    }
+  }
+  .end-item {
+    width: 110px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .about-page-container4 {
+    width: 100%;
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 13px;
+    }
+    h2 {
+      font-size: 16px;
+    }
+  }
+  footer {
+    width: 100%px;
+    height: 1000px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    gap: 40px;
+  }
+  .xtra-watchs {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+  }
+  .last-box-home {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  input {
+    width: 400px;
+    text-align: center;
+  }
+
+  .minu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* responsiv of faq page */
+
+  .faq-container1 {
+    width: 100%;
+    p {
+      font-size: 14px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 20px;
+    }
+  }
+  .faq-container2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+  }
+  .faq-quastion {
+    margin-top: 40px;
+    width: 90%;
+    p {
+      font-size: 12px;
+    }
+  }
+  .quastion-1 {
+    width: 100%;
+  }
+  .item1-faq-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

@@ -1646,3 +1646,158 @@ align-items: center;
 }
 /* responsive cods of home page */
 
+@media (max-width:576px) {
+  .page1-container1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  .box1-container1{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p{font-size: 20px;}
+    h1{font-size: 25px;}
+  }
+  .container1-item2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .purchase-now{
+    font-size: 13px;
+    width: 30%;
+    height: 20%;
+  }
+  .watch-video{
+    font-size: 13px;
+    width: 30%;
+    height: 20%;
+  }
+  .box1-container1 img{
+    width:300px ;
+    height: 300px;
+    margin-top: -600px;
+  }
+  .page1-container2{
+    width:100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: -300px;
+  }
+  .box1-container2{
+    p{font-size: 12px;width: 100%;}
+  }
+  .smart-watch img{
+    width: 400px;
+    height: 400px;
+  }
+  .box3-container2{
+    p{font-size: 14px;
+    width: 100%;}
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .page1-container-3{
+    width: 100%;
+    h1{font-size: 20px;}
+    p{font-size: 13px; width: 80%;}
+  }
+
+  .page1-container3{
+    width: 90%;
+  }
+  .icons-container3{
+    width: 90%;
+    font-size: 10px;
+    gap: 10px;
+    
+  }
+  .icon1 img{width: 40px; height: 40px;}
+
+  .home-container5{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  .jon-idea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .idea{width: 80%;display: flex;
+    justify-content: center;
+    align-items: center;
+  text-align: center;
+  }
+   
+  .Watch-Stores{width: 95%;}
+  .xtra-watchs{p{width:50%;}}
+  .last-item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+  
+  
+  .Purchase-Now{
+  font-size: 13px;  
+    width: 60%;
+    height: 30%;
+  }
+  .find-nearby{
+    font-size: 13px;
+  }
+
+}
+
+/* responsive in 1200px */
+
+@media (max-width:1200px) {
+  .the-header-div{
+    /* background-color: #8c9fb1; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    margin: auto;
+    width:100%;
+    img{ margin-left: 0px;margin-right: 0%;}
+  }
+  .the-header-tabs{
+    width: 50%;
+    /* background-color: antiquewhite; */
+    margin-left: 0%;
+    margin: 0%;
+    padding: 0%;
+  }
+  .the-third-header-class{
+    width: 25%;
+    margin: 0%;
+    padding: 0%;
+    /* background-color: #884e4e; */
+  }
+  .page1-container1{
+
+}
